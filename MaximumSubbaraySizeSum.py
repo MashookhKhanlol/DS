@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def maxSubArrayLen(self, nums: List[int], k: int) -> int:
         prefix_sum_map = {}  # Stores the first occurrence of a prefix sum
